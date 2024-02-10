@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <section>
-      <div className="bg-slate-400 grid w-full justify-center py-48">
+      <div className="bg-slate-800 grid w-full justify-center py-48 text-white h-[900px]">
         <h1 className="text-4xl text-center font-bold mb-6">Todo List</h1>
         <form onSubmit={handleSubmit}>
           <div className=" my-7">
