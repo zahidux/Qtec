@@ -59,7 +59,7 @@ const Home = () => {
               type="text"
               placeholder="Add a new text"
               value={newTask}
-              className="w-full inline py-3 shadow-lg pl-2 outline-0 rounded-xl border-b-4 border-b-orange-400"
+              className="w-full inline py-3 text-black shadow-lg pl-2 outline-0 rounded-xl border-b-4 border-b-orange-400"
               onChange={handleChange}
             />
             <button
